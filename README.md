@@ -1,5 +1,28 @@
 # Joy-of-Pokemon-Observation
 
+
+### Description of Files
+
+**Repository Structure**
+```
+
+--->root_directory
+      |----main.cpp
+      |----makefile
+      |----Readme.md     
+``` 
+
+**main.cpp**
+  This is the main C++ source code file
+
+ **Makefile** 
+  This file is used to automate the build process. It compiles the C++ code in main.cpp to generate an executable. You can run make cmd to compile the project 
+
+**README.md** 
+  This file contains the description of the project and  overview of the project setup and usage
+
+
+
 ## Problem overview
 
 The **Pokemon Conservation Society** is studying Pokemon species and their habitats around the globe each habitat contains a number of Pokemon species, and researchers know how many limbs each species has total number of limbs for a habitat is also known, but not the exact combination of species. The problem asks us to determine how many different ways the species limb counts can sum up to the observed total number of limbs in each habitat
